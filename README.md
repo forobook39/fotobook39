@@ -1,2 +1,132 @@
-# fotobook39
-Полиграфический центр Fotobook39 в Калининграде (ББЦ): фото на документы, печать на одежде, блокнотах и ручках, изготовление фотокниг и визиток. Ксерокопия, сканирование, распечатка документов. Тел: +7 (909) 789-19-19.
+Fotobook39, [08.01.2026 12:03]
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotobook39 — Премиум Полиграфия</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #ffcc00; /* Яркий желтый */
+            --dark: #1a1a1a; /* Глубокий черный */
+            --light: #ffffff;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            background-color: var(--light);
+            color: var(--dark);
+        }
+
+        /* Шапка */
+        header {
+            background-color: var(--dark);
+            color: var(--gold);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--gold);
+        }
+
+        header h1 { font-size: 3.5rem; margin: 0; font-weight: 800; letter-spacing: 2px; }
+        header p { font-size: 1.2rem; color: var(--light); opacity: 0.8; }
+
+        /* Секции */
+        .container { max-width: 1200px; margin: auto; padding: 60px 20px; }
+        h2 { text-align: center; font-size: 2.5rem; text-transform: uppercase; margin-bottom: 40px; }
+        h2 span { border-bottom: 4px solid var(--gold); }
+
+        /* Кнопки мессенджеров */
+        .messenger-grid {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .btn-msg {
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            color: var(--dark);
+            background-color: var(--gold);
+            transition: 0.3s;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .btn-msg:hover { transform: scale(1.05); background-color: var(--dark); color: var(--gold); border: 1px solid var(--gold); }
+
+        /* Галерея работ */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            height: 300px;
+            background: #eee;
+            border: 2px solid var(--dark);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .gallery-item:hover img { transform: scale(1.1); }
+
+        /* Контакты */
+        .contacts {
+            background-color: var(--dark);
+            color: var(--light);
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .gold-text { color: var(--gold); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FOTOBOOK39</h1>
+    <p>Элитная полиграфия в Калининграде</p>
+    
+    <div class="messenger-grid">
+        <a href="https://wa.me/79097891919" class="btn-msg">WhatsApp</a>
+        <a href="https://t.me/ваш_логин" class="btn-msg">Telegram</a>
+        <a href="https://m.me/ваш_логин" class="btn-msg">Messenger</a>
+        <a href="im:ваш_логин" class="btn-msg">iMessage/imo</a>
+    </div>
+</header>
+
+<div class="container">
+    <h2><span>Наши работы</span></h2>
+    <div class="gallery">
+        <div class="gallery-item"><img src="work1.jpg" alt="Пример работы 1"></div>
+        <div class="gallery-item"><img src="work2.jpg" alt="Пример работы 2"></div>
+        <div class="gallery-item"><img src="work3.jpg" alt="Пример работы 3"></div>
+        <div class="gallery-item"><img src="work4.jpg" alt="Пример работы 4"></div>
+        <div class="gallery-item"><img src="work5.jpg" alt="Пример работы 5"></div>
+        <div class="gallery-item"><img src="work6.jpg" alt="Пример работы 6"></div>
+    </div>
+</div>
+
+Fotobook39, [08.01.2026 12:03]
+<section class="contacts">
+    <h2><span class="gold-text">Контакты</span></h2>
+    <p>📍 г. Калининград, Московский проспект, 40 (ББЦ)</p>
+    <p>📞 Тел: <span class="gold-text">8 (909) 789-19-19</span></p>
+</section>
+
+</body>
+</html>
